@@ -13,6 +13,8 @@ Device data is stored locally by default, with optional iCloud synchronization s
 
 NOTE: Blob Saver does NOT currently support downloading SHSH Blobs to devices or iCloud. Please use TSSSaver to retrieve your SHSH Blobs. This feature will become available if there is high demand for it.
 
+[![Demo](demo.gif)](https://youtu.be/gYsiWg7dr7E)
+
 1. [Where Blob Saver excels](#where-blob-saver-excels)
 1. [I'm new, why do I care?](#im-new-why-do-i-care)
 1. [Installation](#installation)
