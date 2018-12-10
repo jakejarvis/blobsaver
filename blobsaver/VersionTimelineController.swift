@@ -134,7 +134,7 @@ class VersionTimelineController: UITableViewController, IndicatorInfoProvider, T
   }
   
   private func fixContentInsets() {
-    // iOS <= 10 has different contentInsetAdjustmentBehavior and safe area behavior.
+    // iOS 10 has different contentInsetAdjustmentBehavior and safe area behavior.
     // NOTE: safeAreaInsets of UIViews are set incorrectly during UINavigationController transitions on iOS 11. Apple
     //   has addressed the issue on iOS 11.2. Details: http://openradar.appspot.com/34465226
     guard #available(iOS 11.0, *) else {

@@ -9,7 +9,7 @@
 import VisualEffectView
 
 // A UIVisualEffectView subclass which supports custom colorTint, colorTintAlpha, and blurRadius values.
-// NOTE: - Modifying the BlurView layer is not supported in iOS 9-10 (eg. Adding a layer shadow).
+// NOTE: - Modifying the BlurView layer is not supported in iOS 10 (eg. Adding a layer shadow).
 class BlurView: VisualEffectView {
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
